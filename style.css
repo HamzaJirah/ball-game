@@ -90,6 +90,10 @@ main .score-board{
   height: 50px;
 }
 
+.ball > img:hover{
+  cursor: pointer;
+}
+
 
 
 
