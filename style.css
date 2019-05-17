@@ -73,3 +73,30 @@ main .score-board{
   text-align: center;
   color: #fff;
 }
+
+/* Ball Selection */
+.ball-selection{
+  width: 300px;
+  margin: 10px auto;
+  text-align: center;
+}
+.ball-selection > .ball{
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.ball > img{
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
