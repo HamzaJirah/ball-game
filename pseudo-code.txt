@@ -4,3 +4,13 @@
     ii. create main content to include;
       - Player score section
       - ball selection section
+
+2. PRESENTATION (CSS)
+  a. style the header section so that the title is centralized
+  b. the player score section will be styled so that;
+    i. centralized the score-board section
+    ii. player A and player B are positioned to the left and write respectively.
+    ii. the scores are positioned at the center of the score-board section.
+    iii. the score-message is also centered
+  c. the ball types will be displayed as inline-block elements
+  
