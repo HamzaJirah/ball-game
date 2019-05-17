@@ -4,3 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Title of Game(Header) */
+.game-title{
+  background: #fff;
+  padding: 15px;
+}
+
+.game-title > h1{
+  text-align: center;
+}
