@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background: #1da1f2;
+}
+
 /* Title of Game(Header) */
 .game-title{
   background: #fff;
@@ -13,4 +17,12 @@
 
 .game-title > h1{
   text-align: center;
+}
+
+/* Score board */
+main .score-board{
+  position: relative;
+  margin: 50px auto;
+  width: 300px;
+  border: 2px solid #fff;
 }
