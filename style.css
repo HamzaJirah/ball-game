@@ -57,6 +57,12 @@ main .score-board{
   top: 20px;
   right: 2px;
 }
+
+.score-board > .player-score{
+  position: absolute;
+  top: 40px;
+  left: 130px;
+}
 /* Score Message */
 .score-message > p{
   text-align: center;
