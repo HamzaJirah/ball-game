@@ -34,16 +34,26 @@ main .score-board{
   height: 60px;
   border-radius: 50%;
   color: #fff;
-  clear: both;
 }
 .score-board > .player-a{
   position: absolute;
-  top: 0;
-  left: -25px;
-  text-align: center;
+  top: 18px;
+  left: -28px;
 }
 .score-board > .player-b{
   position: absolute;
-  top: 0;
-  right: -25px;
+  top: 18px;
+  right: -28px;
+}
+.player-a span{
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  left: 2px;
+}
+.player-b span{
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: 2px;
 }
