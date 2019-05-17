@@ -57,3 +57,8 @@ main .score-board{
   top: 20px;
   right: 2px;
 }
+/* Score Message */
+.score-message > p{
+  text-align: center;
+  color: #fff;
+}
