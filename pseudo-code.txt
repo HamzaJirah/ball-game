@@ -1,0 +1,6 @@
+1. MARK-UP (HTML)
+  a. create html mark-up to include;
+    i. header with a title for the app
+    ii. create main content to include;
+      - Player score section
+      - ball selection section
