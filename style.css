@@ -63,6 +63,11 @@ main .score-board{
   top: 40px;
   left: 130px;
 }
+
+.player-score > span{
+  font-size: 30px;
+  color: #fff;
+}
 /* Score Message */
 .score-message > p{
   text-align: center;
