@@ -13,4 +13,7 @@
     ii. the scores are positioned at the center of the score-board section.
     iii. the score-message is also centered
   c. the ball types will be displayed as inline-block elements
-  
+
+3. LOGIC (JAVASCRIPT)
+  a. add event listener to the balls
+    i. assign score to player A || or player B when a ball is clicked
