@@ -21,6 +21,7 @@ function playGame(){
       let ballASelection = Math.floor(Math.random(balls[0]) * 11);
       let ballBSelection = Math.floor(Math.random(balls[1]) * 11);
       let ballCSelection = Math.floor(Math.random(balls[2]) * 11);
+      // playerA random scores
       playerAScore.textContent = ballASelection
       playerAScore.textContent = ballBSelection
       playerAScore.textContent = ballCSelection
