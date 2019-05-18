@@ -16,3 +16,5 @@
 
 3. LOGIC (JAVASCRIPT)
   a. add event listener to the balls
+  b. iterate through the balls 
+  c. update player score when a ball is selected
