@@ -10,14 +10,24 @@ function loopThroughBalls(){
   for(let i = 0; i < balls.length; i++){
     balls[i].addEventListener('click', playGame);
   }
+  
 }
 loopThroughBalls();
 
 
 // playGame 
-function playGame(){
-  let  
+function playGame(e){
+  for (let i = 0; i < balls.length; i++) {
+      let BallASelection = Math.floor(Math.random(balls[0]) * 11);
+      let BallBSelection = Math.floor(Math.random(balls[1]) * 11);
+      let BallCSelection = Math.floor(Math.random(balls[2]) * 11);
+      playerAScore.textContent = BallASelection
+      playerAScore.textContent = BallBSelection
+      playerAScore.textContent = BallCSelection
+      
+  }
 }
+playGame();
 
 
 
