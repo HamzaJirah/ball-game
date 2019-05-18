@@ -17,22 +17,22 @@ loopThroughBalls();
 // Created playGame function defined above. 
 function playGame(){
   for (let i = 0; i < balls.length; i++) {
-      // generate random numbers for every Player A ball selection made
-      let playerASelection = Math.floor(Math.random(balls[0]) * 11);
-      let playerBSelection = Math.floor(Math.random(balls[1]) * 11);
-      let playerCSelection = Math.floor(Math.random(balls[2]) * 11);
+      // generate random numbers for every ball selection by Player A
+      let playerA_BallA = Math.floor(Math.random(balls[0]) * 11);
+      let playerA_BallB = Math.floor(Math.random(balls[1]) * 11);
+      let playerA_BallC = Math.floor(Math.random(balls[2]) * 11);
       // playerA random scores
-      playerAScore.textContent = playerASelection
-      playerAScore.textContent = playerBSelection
-      playerAScore.textContent = playerCSelection
-      // generate random numbers for every Player B ball selection made
-      let playerASelection = Math.floor(Math.random(balls[0]) * 11);
-      let playerBSelection = Math.floor(Math.random(balls[1]) * 11);
-      let playerCSelection = Math.floor(Math.random(balls[2]) * 11);
+      playerAScore.textContent = playerA_BallA;
+      playerAScore.textContent = playerA_BallB;
+      playerAScore.textContent = playerA_BallC;
+      // generate random numbers for every ball selection by Player B
+      let playerB_BallA = Math.floor(Math.random(balls[0]) * 11);
+      let playerB_BallB = Math.floor(Math.random(balls[1]) * 11);
+      let playerB_BallC = Math.floor(Math.random(balls[2]) * 11);
       // playerA random scores
-      playerBScore.textContent = ballASelection
-      playerBScore.textContent = ballBSelection
-      playerBScore.textContent = ballCSelection   
+      playerBScore.textContent = playerB_BallA;
+      playerBScore.textContent = playerB_BallB;
+      playerBScore.textContent = playerB_BallC; 
   }
 }
 playGame();
