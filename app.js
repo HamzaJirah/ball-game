@@ -4,9 +4,9 @@ let playerBScore = document.querySelector('.player-b-score');
 const scoreMessage = document.querySelector('.score-message > p');
 const balls = document.getElementsByTagName('img');
 
-// Loop through balls and Add event listener
+// Loop through balls
 function loopThroughBalls(){
-  // let allBalls;
+  // iteration and added event listener
   for(let i = 0; i < balls.length; i++){
     balls[i].addEventListener('click', playGame);
   } 
@@ -14,7 +14,7 @@ function loopThroughBalls(){
 loopThroughBalls();
 
 
-// playGame 
+// Created playGame function defined above. 
 function playGame(){
   for (let i = 0; i < balls.length; i++) {
       // generate random numbers for every ball selection made
