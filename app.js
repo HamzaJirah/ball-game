@@ -15,7 +15,7 @@ loopThroughBalls();
 
 
 // playGame 
-function playGame(e){
+function playGame(){
   for (let i = 0; i < balls.length; i++) {
     // generate random numbers for every ball selection made
       let ballASelection = Math.floor(Math.random(balls[0]) * 11);
