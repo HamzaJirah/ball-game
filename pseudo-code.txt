@@ -16,6 +16,3 @@
 
 3. LOGIC (JAVASCRIPT)
   a. add event listener to the balls
-    i. generate random numbers
-    ii. assign score to player A || or player B when a ball is clicked
-    iii. assign random scores to both player A and B.
