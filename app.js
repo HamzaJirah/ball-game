@@ -25,6 +25,10 @@ function playGame(){
       playerAScore.textContent = playerASelection
       playerAScore.textContent = playerBSelection
       playerAScore.textContent = playerCSelection
+      // generate random numbers for every Player B ball selection made
+      let playerASelection = Math.floor(Math.random(balls[0]) * 11);
+      let playerBSelection = Math.floor(Math.random(balls[1]) * 11);
+      let playerCSelection = Math.floor(Math.random(balls[2]) * 11);
       // playerA random scores
       playerBScore.textContent = ballASelection
       playerBScore.textContent = ballBSelection
