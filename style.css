@@ -64,7 +64,7 @@ main .score-board{
   left: 130px;
 }
 
-.player-score > span{
+.player-score {
   font-size: 30px;
   color: #fff;
 }
