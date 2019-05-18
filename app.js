@@ -4,10 +4,19 @@ const playerBScore = document.querySelector('.player-b-score');
 const scoreMessage = document.querySelector('.score-message > p');
 const balls = document.getElementsByTagName('img');
 
-// Add event listener to balls
-balls.addEventListener('click', playGame);
-for(let i = 0; i < balls.length; i++){
-  console.log(balls[i]);
+// Loop through balls and Add event listener
+function loopThroughBalls(){
+  for(let i = 0; i < balls.length; i++){
+    balls[i].addEventListener('click', playGame);
+  }
 }
+loopThroughBalls();
+
+// playGame 
+function playGame(){
+  
+}
+
+
 
 
