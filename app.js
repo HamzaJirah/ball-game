@@ -12,7 +12,7 @@ function loopThroughBalls(){
   }
   return allBalls;
 }
- loopThroughBalls();
+ let allBalls = loopThroughBalls();
 
 // playGame 
 function playGame(){
