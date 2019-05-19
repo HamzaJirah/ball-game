@@ -18,3 +18,4 @@
   a. add event listener to the balls
   b. iterate through the balls 
   c. update player score when a ball is selected
+  d. compare players score and display a message depending on the result of the comparison.
